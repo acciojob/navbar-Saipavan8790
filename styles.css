@@ -1,1 +1,36 @@
-/*  your css code here. If applicable */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6e072d;
+  color: white;
+  font-size: 18px;
+}
+
+.left-list, .right-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+a {
+	text-decoration : none;
+}
+
+.left-list li, .right-list li {
+  padding: 0.5em 1.5em;
+  border-right: 2px solid white;	
+}
+
+.left-list li:last-child {
+  border-right: none;
+}
+
+.left-list li:hover, .right-list li:hover {
+  background-color: #b90e4d;
+  cursor: pointer;
+}
