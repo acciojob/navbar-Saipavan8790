@@ -31,8 +31,7 @@ a {
   border-right: none;
 }
 
-/* .left-list li:hover, .right-list li:hover {
+.left-list li:hover, .right-list li:hover {
   background-color: #b90e4d;
   cursor: pointer;
 }
- */
